@@ -1,0 +1,19 @@
+{
+    "name": "ghostwriter/empty-vs-strict-benchmark",
+    "description": "Benchmarking empty vs strict comparisons in PHP",
+    "license": "BSD-4-Clause",
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\Benchmark\\": "tests/Benchmark"
+        }
+    },
+    "require": {
+        "php": "^8.4",
+        "ghostwriter/filesystem": "~0.1.1",
+        "ghostwriter/shell": "~0.1.0"
+    },
+    "require-dev": {
+        "ext-xdebug": "*",
+        "phpbench/phpbench": "~1.4.1"
+    }
+}
