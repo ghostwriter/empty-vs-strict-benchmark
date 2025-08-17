@@ -12,11 +12,14 @@ $shell = Shell::new();
 
 $workspace = __DIR__;
 $command = 'vendor/bin/phpbench';
-$arguments = ['run', '--report', 'aggregate', '--iterations', '2', '--revs', '1000000'];
+$arguments = ['run', '--report', 'aggregate', '--iterations', '10', '--revs', '1000000'];
 
 echo \sprintf("Running command: %s %s\n", $command, \implode(' ', $arguments));
 
-$result = $shell->execute('vendor/bin/phpbench', $arguments);
+$result = $shell->execute('vendor/bin/phpbench', $arguments, $workspace, [
+    'XDEBUG_MODE' => 'off',
+    'PATH' => \getenv('PATH'),
+]);
 
 $exitCode = $result->exitCode();
 $stdout = \mb_trim($result->stdout());
@@ -51,6 +54,11 @@ if (0 === $exitCode) {
         '```bash',
         $command . ' ' . \implode(' ', $arguments),
         '```',
+        '',
+        '## Takeaway',
+        '',
+        '- `empty()` is marginally faster than strict checks.',
+        '- Performance difference is completely negligible in real-world apps.',
         '',
         '## Notes',
         '',

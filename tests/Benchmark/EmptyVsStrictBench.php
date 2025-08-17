@@ -20,61 +20,61 @@ final class EmptyVsStrictBench
     private string $stringEmpty = '';
 
     #[ Iterations(5), Revs(1000000)]
-    public function benchEmptyOnArray(): void
+    public function benchArrayEmpty(): void
     {
         empty($this->array);
     }
 
     #[ Iterations(5), Revs(1000000)]
-    public function benchEmptyOnEmptyArray(): void
-    {
-        empty($this->arrayEmpty);
-    }
-
-    #[ Iterations(5), Revs(1000000)]
-    public function benchEmptyOnEmptyString(): void
-    {
-        empty($this->stringEmpty);
-    }
-
-    #[ Iterations(5), Revs(1000000)]
-    public function benchEmptyOnNull(): void
-    {
-        empty($this->nullValue);
-    }
-
-    #[ Iterations(5), Revs(1000000)]
-    public function benchEmptyOnString(): void
-    {
-        empty($this->string);
-    }
-
-    #[ Iterations(5), Revs(1000000)]
-    public function benchStrictArray(): void
+    public function benchArrayStrict(): void
     {
         [] === $this->array;
     }
 
     #[ Iterations(5), Revs(1000000)]
-    public function benchStrictEmptyArray(): void
+    public function benchEmptyArrayEmpty(): void
+    {
+        empty($this->arrayEmpty);
+    }
+
+    #[ Iterations(5), Revs(1000000)]
+    public function benchEmptyArrayStrict(): void
     {
         [] === $this->arrayEmpty;
     }
 
     #[ Iterations(5), Revs(1000000)]
-    public function benchStrictEmptyString(): void
+    public function benchEmptyStringEmpty(): void
+    {
+        empty($this->stringEmpty);
+    }
+
+    #[ Iterations(5), Revs(1000000)]
+    public function benchEmptyStringStrict(): void
     {
         '' === $this->stringEmpty;
     }
 
     #[ Iterations(5), Revs(1000000)]
-    public function benchStrictOnNull(): void
+    public function benchNullEmpty(): void
+    {
+        empty($this->nullValue);
+    }
+
+    #[ Iterations(5), Revs(1000000)]
+    public function benchNullStrict(): void
     {
         null === $this->nullValue;
     }
 
     #[ Iterations(5), Revs(1000000)]
-    public function benchStrictString(): void
+    public function benchStringEmpty(): void
+    {
+        empty($this->string);
+    }
+
+    #[ Iterations(5), Revs(1000000)]
+    public function benchStringStrict(): void
     {
         '' === $this->string;
     }

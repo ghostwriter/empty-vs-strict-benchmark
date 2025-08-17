@@ -2,11 +2,33 @@
     "name": "ghostwriter/empty-vs-strict-benchmark",
     "description": "Benchmarking empty vs strict comparisons in PHP",
     "license": "BSD-4-Clause",
-    "autoload-dev": {
-        "psr-4": {
-            "Tests\\Benchmark\\": "tests/Benchmark"
+    "authors": [
+        {
+            "name": "Nathanael Esayeas",
+            "email": "nathanael.esayeas@protonmail.com",
+            "homepage": "https://github.com/ghostwriter",
+            "role": "Developer"
         }
+    ],
+    "homepage": "https://github.com/ghostwriter/empty-vs-strict-benchmark",
+    "support": {
+        "issues": "https://github.com/ghostwriter/empty-vs-strict-benchmark/issues",
+        "source": "https://github.com/ghostwriter/empty-vs-strict-benchmark",
+        "docs": "https://github.com/ghostwriter/empty-vs-strict-benchmark",
+        "rss": "https://github.com/ghostwriter/empty-vs-strict-benchmark/releases.atom",
+        "security": "https://github.com/ghostwriter/empty-vs-strict-benchmark/security/advisories/new"
     },
+    "funding": [
+        {
+            "type": "github",
+            "url": "https://github.com/sponsors/ghostwriter"
+        }
+    ],
+    "_comment": [
+        "#BlackLivesMatter",
+        "#FreePalestine",
+        "#StandWithUkraine"
+    ],
     "require": {
         "php": "^8.4",
         "ghostwriter/filesystem": "~0.1.1",
@@ -15,5 +37,11 @@
     "require-dev": {
         "ext-xdebug": "*",
         "phpbench/phpbench": "~1.4.1"
+    },
+    "prefer-stable": true,
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\Benchmark\\": "tests/Benchmark"
+        }
     }
 }

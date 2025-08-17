@@ -5,20 +5,20 @@ This benchmark compares the performance of using `empty()` versus strict compari
 ## Benchmark Results
 
 ```
-+--------------------+-------------------------+-----+---------+-----+-----------+---------+---------+
-| benchmark          | subject                 | set | revs    | its | mem_peak  | mode    | rstdev  |
-+--------------------+-------------------------+-----+---------+-----+-----------+---------+---------+
-| EmptyVsStrictBench | benchEmptyOnArray       |     | 1000000 | 2   | 819.368kb | 0.408μs | ±0.95%  |
-| EmptyVsStrictBench | benchEmptyOnEmptyArray  |     | 1000000 | 2   | 819.368kb | 0.484μs | ±3.27%  |
-| EmptyVsStrictBench | benchEmptyOnEmptyString |     | 1000000 | 2   | 819.368kb | 0.544μs | ±6.70%  |
-| EmptyVsStrictBench | benchEmptyOnNull        |     | 1000000 | 2   | 819.368kb | 1.086μs | ±10.79% |
-| EmptyVsStrictBench | benchEmptyOnString      |     | 1000000 | 2   | 819.368kb | 0.532μs | ±11.90% |
-| EmptyVsStrictBench | benchStrictArray        |     | 1000000 | 2   | 819.368kb | 0.501μs | ±1.64%  |
-| EmptyVsStrictBench | benchStrictEmptyArray   |     | 1000000 | 2   | 819.368kb | 0.505μs | ±6.06%  |
-| EmptyVsStrictBench | benchStrictEmptyString  |     | 1000000 | 2   | 819.368kb | 0.512μs | ±1.16%  |
-| EmptyVsStrictBench | benchStrictOnNull       |     | 1000000 | 2   | 819.368kb | 0.724μs | ±8.70%  |
-| EmptyVsStrictBench | benchStrictString       |     | 1000000 | 2   | 819.368kb | 1.011μs | ±43.00% |
-+--------------------+-------------------------+-----+---------+-----+-----------+---------+---------+
++--------------------+------------------------+-----+---------+-----+-----------+---------+--------+
+| benchmark          | subject                | set | revs    | its | mem_peak  | mode    | rstdev |
++--------------------+------------------------+-----+---------+-----+-----------+---------+--------+
+| EmptyVsStrictBench | benchArrayEmpty        |     | 1000000 | 10  | 784.896kb | 0.053μs | ±2.27% |
+| EmptyVsStrictBench | benchArrayStrict       |     | 1000000 | 10  | 784.912kb | 0.060μs | ±0.32% |
+| EmptyVsStrictBench | benchEmptyArrayEmpty   |     | 1000000 | 10  | 784.912kb | 0.053μs | ±0.36% |
+| EmptyVsStrictBench | benchEmptyArrayStrict  |     | 1000000 | 10  | 784.912kb | 0.057μs | ±0.28% |
+| EmptyVsStrictBench | benchEmptyStringEmpty  |     | 1000000 | 10  | 784.912kb | 0.054μs | ±1.61% |
+| EmptyVsStrictBench | benchEmptyStringStrict |     | 1000000 | 10  | 784.912kb | 0.057μs | ±0.51% |
+| EmptyVsStrictBench | benchNullEmpty         |     | 1000000 | 10  | 784.896kb | 0.054μs | ±0.91% |
+| EmptyVsStrictBench | benchNullStrict        |     | 1000000 | 10  | 784.896kb | 0.055μs | ±3.65% |
+| EmptyVsStrictBench | benchStringEmpty       |     | 1000000 | 10  | 784.912kb | 0.054μs | ±0.65% |
+| EmptyVsStrictBench | benchStringStrict      |     | 1000000 | 10  | 784.912kb | 0.058μs | ±3.42% |
++--------------------+------------------------+-----+---------+-----+-----------+---------+--------+
 ```
 
 ## Command
@@ -26,8 +26,13 @@ This benchmark compares the performance of using `empty()` versus strict compari
 This benchmark was run using the following command:
 
 ```bash
-vendor/bin/phpbench run --report aggregate --iterations 2 --revs 1000000
+vendor/bin/phpbench run --report aggregate --iterations 10 --revs 1000000
 ```
+
+## Takeaway
+
+- `empty()` is marginally faster than strict checks.
+- Performance difference is completely negligible in real-world apps.
 
 ## Notes
 
