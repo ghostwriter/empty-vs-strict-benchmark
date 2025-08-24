@@ -44,5 +44,14 @@
         "psr-4": {
             "Tests\\Benchmark\\": "tests/Benchmark"
         }
+    },
+    "config": {
+        "allow-plugins": {
+            "ghostwriter/coding-standard": true,
+            "ghostwriter/workbench": true
+        },
+        "platform": {
+            "php": "8.4.999"
+        }
     }
 }
