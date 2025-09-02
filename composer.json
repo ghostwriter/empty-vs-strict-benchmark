@@ -37,7 +37,6 @@
     },
     "require-dev": {
         "ext-xdebug": "*",
-        "ghostwriter/workbench": "0.1.x-dev",
         "mockery/mockery": "~1.6.12",
         "phpbench/phpbench": "~1.4.1",
         "phpunit/phpunit": "~12.3.7",
@@ -51,8 +50,7 @@
     },
     "config": {
         "allow-plugins": {
-            "ghostwriter/coding-standard": true,
-            "ghostwriter/workbench": true
+            "ghostwriter/coding-standard": true
         },
         "platform": {
             "php": "8.4.999"
