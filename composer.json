@@ -45,8 +45,14 @@
     "prefer-stable": true,
     "autoload-dev": {
         "psr-4": {
-            "Tests\\Benchmark\\": "tests/Benchmark"
-        }
+            "Tests\\Benchmark\\": "tests/Benchmark/",
+            "Tests\\PHPT\\": "tests/PHPT/",
+            "Tests\\Unit\\": "tests/Unit/",
+            "\\": "tests/Fixture/"
+        },
+        "exclude-from-classmap": [
+            "/tests/"
+        ]
     },
     "config": {
         "allow-plugins": {
