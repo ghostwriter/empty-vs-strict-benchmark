@@ -71,5 +71,11 @@
         "test": ["@phpunit", "@infection"],
         "xdebug": "@putenv XDEBUG_MODE=coverage",
         "unused": "vendor/ghostwriter/coding-standard/tools/phar/composer-unused --no-interaction --ansi"
+    },
+    "extra": {
+        "thanks": {
+            "url": "https://github.com/ghostwriter/empty-vs-strict-benchmark",
+            "name": "ghostwriter/empty-vs-strict-benchmark"
+        }
     }
 }
