@@ -74,8 +74,8 @@
     },
     "extra": {
         "thanks": {
-            "url": "https://github.com/ghostwriter/empty-vs-strict-benchmark",
-            "name": "ghostwriter/empty-vs-strict-benchmark"
+            "name": "ghostwriter/empty-vs-strict-benchmark",
+            "url": "https://github.com/ghostwriter/empty-vs-strict-benchmark"
         }
     }
 }
