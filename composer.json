@@ -1,7 +1,7 @@
 {
     "name": "ghostwriter/empty-vs-strict-benchmark",
     "description": "Benchmarking empty vs strict comparisons in PHP",
-    "license": "BSD-4-Clause",
+    "license": "BSD-3-Clause",
     "authors": [
         {
             "name": "Nathanael Esayeas",
