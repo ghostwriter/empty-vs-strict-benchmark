@@ -39,7 +39,7 @@
         "ext-xdebug": "*",
         "mockery/mockery": "^1.6.12",
         "phpbench/phpbench": "^1.4.3",
-        "phpunit/phpunit": "^12.5.7",
+        "phpunit/phpunit": "^12.5.8",
         "symfony/var-dumper": "^8.0.4"
     },
     "prefer-stable": true,
