@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0119a46f884afd58c549db8f6c4f719c",
+    "content-hash": "34871a77d0b8f25baa0a66303c265b1c",
     "packages": [
         {
             "name": "ghostwriter/filesystem",
@@ -828,16 +828,16 @@
         },
         {
             "name": "phpunit/php-code-coverage",
-            "version": "13.0.0",
+            "version": "13.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
-                "reference": "fde966eeb2a9dded5c3bec81650f97fd7abeda0f"
+                "reference": "a8b58fde2f4fbc69a064e1f80ff917607cf7737c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/fde966eeb2a9dded5c3bec81650f97fd7abeda0f",
-                "reference": "fde966eeb2a9dded5c3bec81650f97fd7abeda0f",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/a8b58fde2f4fbc69a064e1f80ff917607cf7737c",
+                "reference": "a8b58fde2f4fbc69a064e1f80ff917607cf7737c",
                 "shasum": ""
             },
             "require": {
@@ -893,7 +893,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/php-code-coverage/issues",
                 "security": "https://github.com/sebastianbergmann/php-code-coverage/security/policy",
-                "source": "https://github.com/sebastianbergmann/php-code-coverage/tree/13.0.0"
+                "source": "https://github.com/sebastianbergmann/php-code-coverage/tree/13.0.1"
             },
             "funding": [
                 {
@@ -913,7 +913,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-02-06T04:53:55+00:00"
+            "time": "2026-02-06T06:05:15+00:00"
         },
         {
             "name": "phpunit/php-file-iterator",
@@ -1210,16 +1210,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "13.0.0",
+            "version": "13.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "e045b31f855d4511a2091aa707a2bb0bb5456632"
+                "reference": "35b8abcac712ba24814d7fe8908dfb5702efb39f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/e045b31f855d4511a2091aa707a2bb0bb5456632",
-                "reference": "e045b31f855d4511a2091aa707a2bb0bb5456632",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/35b8abcac712ba24814d7fe8908dfb5702efb39f",
+                "reference": "35b8abcac712ba24814d7fe8908dfb5702efb39f",
                 "shasum": ""
             },
             "require": {
@@ -1233,7 +1233,7 @@
                 "phar-io/manifest": "^2.0.4",
                 "phar-io/version": "^3.2.1",
                 "php": ">=8.4.1",
-                "phpunit/php-code-coverage": "^13.0.0",
+                "phpunit/php-code-coverage": "^13.0.1",
                 "phpunit/php-file-iterator": "^7.0.0",
                 "phpunit/php-invoker": "^7.0.0",
                 "phpunit/php-text-template": "^6.0.0",
@@ -1288,7 +1288,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
                 "security": "https://github.com/sebastianbergmann/phpunit/security/policy",
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/13.0.0"
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/13.0.1"
             },
             "funding": [
                 {
@@ -1312,7 +1312,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-02-06T04:57:13+00:00"
+            "time": "2026-02-08T07:08:25+00:00"
         },
         {
             "name": "psr/cache",
