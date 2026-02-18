@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f645ce41584544d88a66e3c4c79e6a20",
+    "content-hash": "b7089d462af0678a5940a392b2d09cb8",
     "packages": [
         {
             "name": "ghostwriter/filesystem",
@@ -1210,16 +1210,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "13.0.3",
+            "version": "13.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "a9c20642ffd2098c0f9e687c00849afbce2f23c7"
+                "reference": "915a2e7266f04c1867b2dc812abc86c34f1aa52f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/a9c20642ffd2098c0f9e687c00849afbce2f23c7",
-                "reference": "a9c20642ffd2098c0f9e687c00849afbce2f23c7",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/915a2e7266f04c1867b2dc812abc86c34f1aa52f",
+                "reference": "915a2e7266f04c1867b2dc812abc86c34f1aa52f",
                 "shasum": ""
             },
             "require": {
@@ -1288,7 +1288,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
                 "security": "https://github.com/sebastianbergmann/phpunit/security/policy",
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/13.0.3"
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/13.0.4"
             },
             "funding": [
                 {
@@ -1312,7 +1312,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-02-16T08:38:33+00:00"
+            "time": "2026-02-18T09:00:54+00:00"
         },
         {
             "name": "psr/cache",
@@ -3683,9 +3683,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "ghostwriter/coding-standard": 20
-    },
+    "stability-flags": {},
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
