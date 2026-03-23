@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "08aa3e6958e57f3cc420fd0b3a2f6680",
+    "content-hash": "542ee83718e3446c04f3af06f1973d40",
     "packages": [
         {
             "name": "ghostwriter/filesystem",
@@ -730,16 +730,16 @@
         },
         {
             "name": "phpbench/phpbench",
-            "version": "1.5.1",
+            "version": "1.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpbench/phpbench.git",
-                "reference": "9a28fd0833f11171b949843c6fd663eb69b6d14c"
+                "reference": "661c8c6abbc7734986cf7bc6062c237fbb450461"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpbench/phpbench/zipball/9a28fd0833f11171b949843c6fd663eb69b6d14c",
-                "reference": "9a28fd0833f11171b949843c6fd663eb69b6d14c",
+                "url": "https://api.github.com/repos/phpbench/phpbench/zipball/661c8c6abbc7734986cf7bc6062c237fbb450461",
+                "reference": "661c8c6abbc7734986cf7bc6062c237fbb450461",
                 "shasum": ""
             },
             "require": {
@@ -817,7 +817,7 @@
             ],
             "support": {
                 "issues": "https://github.com/phpbench/phpbench/issues",
-                "source": "https://github.com/phpbench/phpbench/tree/1.5.1"
+                "source": "https://github.com/phpbench/phpbench/tree/1.6.1"
             },
             "funding": [
                 {
@@ -825,7 +825,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-03-05T08:18:58+00:00"
+            "time": "2026-03-22T10:27:20+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
@@ -3684,9 +3684,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "ghostwriter/coding-standard": 20
-    },
+    "stability-flags": {},
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
