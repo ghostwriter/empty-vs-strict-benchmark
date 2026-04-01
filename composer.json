@@ -40,7 +40,7 @@
         "mockery/mockery": "^1.6.12",
         "phpbench/phpbench": "^1.6.1",
         "phpunit/phpunit": "^13.0.6",
-        "symfony/var-dumper": "^8.0.6"
+        "symfony/var-dumper": "^8.0.8"
     },
     "prefer-stable": true,
     "autoload-dev": {
