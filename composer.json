@@ -28,7 +28,7 @@
     "require": {
         "php": "~8.4.0 || ~8.5.0",
         "ghostwriter/filesystem": "^0.2.0",
-        "ghostwriter/shell": "^0.1.4"
+        "ghostwriter/shell": "^0.1.5"
     },
     "require-dev": {
         "ext-xdebug": "*",
