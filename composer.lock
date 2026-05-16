@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1b35cb9a0649be6b06dee546f9c25965",
+    "content-hash": "4dc97fe199517e17d57b4a73ec845af1",
     "packages": [
         {
             "name": "ghostwriter/filesystem",
@@ -163,16 +163,16 @@
     "packages-dev": [
         {
             "name": "boundwize/structarmed",
-            "version": "0.5.5",
+            "version": "0.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/boundwize/structarmed.git",
-                "reference": "6da18d0c62553831e402250940d75df04a8c3bc8"
+                "reference": "a13d3ef491e707d40e83c20fd8b1f07e9d96cd8f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/boundwize/structarmed/zipball/6da18d0c62553831e402250940d75df04a8c3bc8",
-                "reference": "6da18d0c62553831e402250940d75df04a8c3bc8",
+                "url": "https://api.github.com/repos/boundwize/structarmed/zipball/a13d3ef491e707d40e83c20fd8b1f07e9d96cd8f",
+                "reference": "a13d3ef491e707d40e83c20fd8b1f07e9d96cd8f",
                 "shasum": ""
             },
             "require": {
@@ -221,7 +221,7 @@
             ],
             "support": {
                 "issues": "https://github.com/boundwize/structarmed/issues",
-                "source": "https://github.com/boundwize/structarmed/tree/0.5.5"
+                "source": "https://github.com/boundwize/structarmed/tree/0.6.1"
             },
             "funding": [
                 {
@@ -229,7 +229,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-05-15T13:59:43+00:00"
+            "time": "2026-05-15T18:44:44+00:00"
         },
         {
             "name": "doctrine/annotations",
