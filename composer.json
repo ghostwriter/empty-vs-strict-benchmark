@@ -32,7 +32,7 @@
     },
     "require-dev": {
         "ext-xdebug": "*",
-        "boundwize/structarmed": "^0.6.15",
+        "boundwize/structarmed": "^0.6.16",
         "mockery/mockery": "^1.6.12",
         "phpbench/phpbench": "^1.6.1",
         "phpunit/phpunit": "^13.1.10",
