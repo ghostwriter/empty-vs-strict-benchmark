@@ -8,10 +8,6 @@
 "repository":
   "name": "empty-vs-strict-benchmark"
   "description": "[WIP] Benchmarking empty vs strict comparisons in PHP"
-  "topics":
-    - "ghostwriter"
-    - "empty-vs-strict-benchmark"
-    - "php"
   "homepage": "https://github.com/ghostwriter/empty-vs-strict-benchmark"
   "default_branch": "0.1.x"
   "allow_auto_merge": true
