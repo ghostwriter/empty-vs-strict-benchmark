@@ -37,7 +37,8 @@
         "mockery/mockery": "^1.6.12",
         "phpbench/phpbench": "^1.6.1",
         "phpunit/phpunit": "^13.1.12",
-        "symfony/var-dumper": "^8.0.8"
+        "symfony/var-dumper": "^8.0.8",
+        "ghostwriter/phpunit-assertions": "^0.1.0"
     },
     "prefer-stable": true,
     "autoload-dev": {
