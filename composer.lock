@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1ea342715a2b894697e7bca5ecacd54e",
+    "content-hash": "4c6ee184cf477a3470635735e789faaf",
     "packages": [
         {
             "name": "ghostwriter/filesystem",
@@ -163,16 +163,16 @@
     "packages-dev": [
         {
             "name": "boundwize/structarmed",
-            "version": "0.9.3",
+            "version": "0.12.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/boundwize/structarmed.git",
-                "reference": "9631b1f9d39b2b0007feb39bfcec54d896f514a5"
+                "reference": "0ede328d444b528da7aa033631ef0a53f1098b4c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/boundwize/structarmed/zipball/9631b1f9d39b2b0007feb39bfcec54d896f514a5",
-                "reference": "9631b1f9d39b2b0007feb39bfcec54d896f514a5",
+                "url": "https://api.github.com/repos/boundwize/structarmed/zipball/0ede328d444b528da7aa033631ef0a53f1098b4c",
+                "reference": "0ede328d444b528da7aa033631ef0a53f1098b4c",
                 "shasum": ""
             },
             "require": {
@@ -221,11 +221,12 @@
                 "psr1",
                 "psr12",
                 "psr15",
-                "psr4"
+                "psr4",
+                "static analysis"
             ],
             "support": {
                 "issues": "https://github.com/boundwize/structarmed/issues",
-                "source": "https://github.com/boundwize/structarmed/tree/0.9.3"
+                "source": "https://github.com/boundwize/structarmed/tree/0.12.5"
             },
             "funding": [
                 {
@@ -233,7 +234,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-05-31T04:40:09+00:00"
+            "time": "2026-06-07T09:24:11+00:00"
         },
         {
             "name": "doctrine/annotations",
