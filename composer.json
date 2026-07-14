@@ -37,16 +37,16 @@
     ],
     "require": {
         "php": "~8.4.0 || ~8.5.0 || ~8.6.0",
-        "ghostwriter/filesystem": "^0.2.0",
-        "ghostwriter/shell": "^0.1.5"
+        "ghostwriter/filesystem": "^0.2.1",
+        "ghostwriter/shell": "^0.1.6"
     },
     "require-dev": {
         "ext-xdebug": "*",
-        "boundwize/structarmed": "^0.9.3",
+        "boundwize/structarmed": "^0.14.15",
         "ghostwriter/phpunit-assertions": "^0.1.0",
         "mockery/mockery": "^1.6.12",
-        "phpbench/phpbench": "^1.6.1",
-        "phpunit/phpunit": "^13.1.12"
+        "phpbench/phpbench": "^1.7.0",
+        "phpunit/phpunit": "^13.2.4"
     },
     "prefer-stable": true,
     "autoload-dev": {
